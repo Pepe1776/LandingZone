@@ -252,7 +252,7 @@
                         method="post"
                         data-netlify="true"
                         data-netlify-honeypot="bot-field">
-               <input type="hidden" name="form-name" value="contact" />
+               <input type="hidden" name="contact" value="contact" />
                <div class="relative w-full mb-3 mt-8">
                   <label
                     class="block uppercase text-xs font-bold mb-2"
