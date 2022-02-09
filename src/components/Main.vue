@@ -248,7 +248,8 @@
                 <p class="leading-relaxed mt-1 mb-4">
                   Complete this form and we will get back to you in 24 hours.
                 </p>
-                <form data-netlify="true">
+                <form netlify>
+                  <input type="hidden" name="form-name" value="contact">
                 <div class="relative w-full mb-3 mt-8">
                   <label
                     class="block uppercase text-xs font-bold mb-2"
