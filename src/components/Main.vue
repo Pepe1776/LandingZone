@@ -22,12 +22,12 @@
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div>
               <h1 class="text-white font-semibold text-5xl">
-                J <span class="text-orange-500">Parker</span></h1>
-                <p class="text-xl">Fully responsive and extremely fast modern applications and web pages tailor made for each customers needs and wants</p>
+                J <span class="text-teal-500">Parker</span></h1>
+                <p class="text-xl text-gray-500">Fully responsive and extremely fast modern applications and web pages tailor made for each customers needs and wants</p>
 
               <a
                 href="#"
-                class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
+                class="bg-transparent hover:bg-teal-500 text-teal-500 font-semibold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer active:translate-y-5"
                 >Download Brochure</a
               >
             </div>
@@ -62,8 +62,8 @@
           >
             <img
               alt="..."
-              class="max-w-full rounded-lg shadow-lg"
-              src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+              class="max-w-full rounded-lg shadow-lg opacity-50"
+              src="https://images.unsplash.com/photo-1603969280040-3bbb77278211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
             />
           </div>
           <div
@@ -71,13 +71,9 @@
             data-aos="fade-left"
           >
             <div class="md:pr-12">
-              <small class="text-orange-500">About our gym</small>
-              <h3 class="text-4xl uppercase font-bold">Safe Body Building</h3>
-              <p class="mt-4 text-lg leading-relaxed">
-                The extension comes with three pre-built pages to help you get
-                started faster. You can change the text and images and you're
-                good to go.
-              </p>
+              <small class="text-orange-500">About my work</small>
+              <h3 class="text-4xl uppercase font-bold">Full Stack</h3>
+            
               <ul class="list-none mt-6">
                 <li class="py-2">
                   <div class="flex items-center">
@@ -89,7 +85,7 @@
                     </div>
                     <div>
                       <h4 class="text-xl">
-                        The latest & greatest gym equipment
+                      From custom tailored designs to full production deployment
                       </h4>
                     </div>
                   </div>
@@ -104,7 +100,7 @@
                     </div>
                     <div>
                       <h4 class="text-xl">
-                        5-inch, quality foam floor padding
+                        Vue/Vite applications and web sites that run extremely fast
                       </h4>
                     </div>
                   </div>
@@ -118,7 +114,7 @@
                       ></span>
                     </div>
                     <div>
-                      <h4 class="text-xl">3 professional trainers</h4>
+                      <h4 class="text-xl">Systems integrations including Crestron, Qsys, Dante, Control4, BrightSign</h4>
                     </div>
                   </div>
                 </li>
@@ -134,10 +130,9 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold uppercase">Meet Our Trainers</h2>
+            <h2 class="text-4xl font-semibold uppercase">Demo Projects</h2>
             <p class="text-lg leading-relaxed m-4">
-              Our trainers are are here to dedicate the time and effort that you
-              need to get in the best shape of your life
+             Some test projects to give some examples and ideas for customers
             </p>
           </div>
         </div>
@@ -151,14 +146,14 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="https://images.unsplash.com/photo-1597347343908-2937e7dcc560?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                src="https://images.unsplash.com/photo-1589185810360-8ea760bb9836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                 class="shadow-lg rounded max-w-full mx-auto"
                 style="max-width: 250px"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Mr Rogers</h5>
+                <a href="https://monsteria-vite.netlify.app/"><h5 class="text-xl font-bold">Monsteria</h5></a>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Neighborhood Watchman
+                  Mobile First Plant app
                 </p>
               </div>
             </div>
@@ -171,14 +166,14 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                src="https://images.unsplash.com/flagged/photo-1587302164675-820fe61bbd55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
                 class="shadow-lg rounded max-w-full mx-auto"
                 style="max-width: 250px"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Strawberry Shortcake</h5>
+                <a href="https://vue-grocery-f79c2.web.app/"><h5 class="text-xl font-bold">Grocery List App</h5></a>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Cupcake Smasher
+                  Tied to a backend database to handle grocery items
                 </p>
               </div>
             </div>
@@ -191,14 +186,14 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                src="https://icon-library.com/images/github-icon-white/github-icon-white-2.jpg"
                 class="shadow-lg rounded max-w-full mx-auto"
                 style="max-width: 250px"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Ronald McDonald</h5>
+                <h5 class="text-xl font-bold">GitHub Repos</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Double Whoopass With Cheese
+                  lots of projects in my public repositories
                 </p>
               </div>
             </div>
@@ -232,8 +227,7 @@
               Contact Us
             </h2>
             <p class="text-lg leading-relaxed mt-4 mb-4">
-              Contact us to ask any questions, aquire a membership, talk to our
-              trainers or anything else
+              Contact us to ask any questions
             </p>
           </div>
         </div>
@@ -249,7 +243,7 @@
               class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
               data-aos="fade-up-right"
             >
-              <div class="flex-auto p-5 lg:p-10 bg-orange-500 text-white">
+              <div class="flex-auto p-5 lg:p-10 bg-teal-500 text-white">
                 <h4 class="text-2xl font-semibold">Want to work with us?</h4>
                 <p class="leading-relaxed mt-1 mb-4">
                   Complete this form and we will get back to you in 24 hours.
@@ -261,7 +255,7 @@
                     >Full Name</label
                   ><input
                     type="text"
-                    class="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    class="px-3 py-3 placeholder-gray-800 text-gray-500 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                     placeholder="Full Name"
                     style="transition: all 0.15s ease 0s"
                   />
@@ -273,7 +267,7 @@
                     >Email</label
                   ><input
                     type="email"
-                    class="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    class="px-3 py-3 placeholder-gray-800 text-gray-500 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                     placeholder="Email"
                     style="transition: all 0.15s ease 0s"
                   />
@@ -286,15 +280,16 @@
                   ><textarea
                     rows="4"
                     cols="80"
-                    class="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    class="px-3 py-3 placeholder-gray-800 bg-white text-gray-500 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                     placeholder="Type a message..."
                   ></textarea>
                 </div>
                 <div class="text-center mt-6">
                   <button
                     class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
+                    type="submit"
                     style="transition: all 0.15s ease 0s"
+                    @click="submit"
                   >
                     Send Message
                   </button>

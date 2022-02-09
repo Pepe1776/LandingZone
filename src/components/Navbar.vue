@@ -9,15 +9,15 @@
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
         <a
-          class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-          href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-          >The Power Room</a
+          class=" hover:text-teal-500 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+          href="/index.html"
+          >NterFace</a
         ><button
-          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block outline-none focus:outline-none"
           type="button"
           onclick="toggleNavbar('example-collapse-navbar')"
         >
-          <i class="text-white fas fa-bars"></i>
+          <span class="text-white lg:hidden">=</span>
         </button>
       </div>
       <div
@@ -29,27 +29,25 @@
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
-              ><i class="text-orange-500 fab fa-facebook text-lg leading-lg"></i
-              ><span class="lg:hidden inline-block ml-2">Share</span></a
+              href="https://www.instagram.com/j_not_query"
+              ><span class="hover:text-teal-500 inline-block ml-2">Instagram</span></a
             >
           </li>
           <!-- Icon 2 -->
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
-              ><i class="text-orange-500 fab fa-twitter text-lg leading-lg"></i
-              ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+              href="https://www.github.com/pepe1776"
+              >
+              <span class="hover:text-teal-500 inline-block ml-2">GitHub</span></a
             >
           </li>
           <!-- Icon 3 -->
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
-              ><i class="text-orange-500 fab fa-linkedin text-lg leading-lg"></i
-              ><span class="lg:hidden inline-block ml-2">Profile</span></a
+              href="mailto:justinp@aevio.com"
+              ><span class="hover:text-teal-500 inline-block ml-2">Email</span></a
             >
           </li>
         </ul>
