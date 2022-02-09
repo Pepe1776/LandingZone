@@ -249,7 +249,6 @@
                   Complete this form and we will get back to you in 24 hours.
                 </p>
                 <form  name="contact"
-                        method="post"
                         data-netlify="true"
                         data-netlify-honeypot="bot-field">
                <input type="hidden" name="contact" value="contact" />
