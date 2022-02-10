@@ -21,7 +21,7 @@
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div>
               <h1 class="text-white font-semibold text-5xl">
-                J <span class="text-indigo-500">Parker</span></h1>
+                J <span class="text-green-500">Parker</span></h1>
                 <p class="lato text-xl text-gray-500">Fully responsive and extremely fast modern applications and web pages tailor made for each customers needs and wants</p>
 
               <a
@@ -333,9 +333,11 @@ export default {
           email: this.email,
           password: this.password,
         }) 
+        
       });
     } 
-  }
+  },
+  
 }</script>
 
 <style scoped>
@@ -348,4 +350,5 @@ transition: all .1s ease-in-out;
  transform: translateY(5px); 
  opacity: 0.5;
 }
+
 </style>
