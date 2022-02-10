@@ -9,7 +9,7 @@
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
         <a
-          class=" hover:text-teal-500 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+          class="nter hover:text-indigo-500 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
           href="/index.html"
           >NterFace</a
         ><button
@@ -28,9 +28,9 @@
           <!-- Icon 1 -->
           <li class="flex items-center">
             <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              class="lato lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="https://www.instagram.com/j_not_query"
-              ><span class="hover:text-teal-500 inline-block ml-2">Instagram</span></a
+              ><span class="hover:text-indigo-500 inline-block ml-2">Instagram</span></a
             >
           </li>
           <!-- Icon 2 -->
@@ -39,15 +39,15 @@
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="https://www.github.com/pepe1776"
               >
-              <span class="hover:text-teal-500 inline-block ml-2">GitHub</span></a
+              <span class="lato hover:text-indigo-500 inline-block ml-2">GitHub</span></a
             >
           </li>
           <!-- Icon 3 -->
           <li class="flex items-center">
             <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              class="lato lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="mailto:justinp@aevio.com"
-              ><span class="hover:text-teal-500 inline-block ml-2">Email</span></a
+              ><span class="hover:text-indigo-500 inline-block ml-2">Email</span></a
             >
           </li>
         </ul>
@@ -61,4 +61,7 @@ export default {};
 </script>
 
 <style>
+.nter {
+  font-family: alien2;
+}
 </style>

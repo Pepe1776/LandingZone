@@ -9,10 +9,9 @@
       <div
         class="absolute top-0 w-full h-full bg-top bg-cover"
         style="
-          background-image: url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+          background-image: url('https://images.unsplash.com/photo-1592424002053-21f369ad7fdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
         "
-      >
-        <span
+      ><span
           id="blackOverlay"
           class="w-full h-full absolute opacity-75 bg-black"
         ></span>
@@ -22,13 +21,14 @@
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div>
               <h1 class="text-white font-semibold text-5xl">
-                J <span class="text-teal-500">Parker</span></h1>
-                <p class="text-xl text-gray-500">Fully responsive and extremely fast modern applications and web pages tailor made for each customers needs and wants</p>
+                J <span class="text-indigo-500">Parker</span></h1>
+                <p class="lato text-xl text-gray-500">Fully responsive and extremely fast modern applications and web pages tailor made for each customers needs and wants</p>
 
               <a
                 href="#"
-                class="bg-transparent hover:bg-teal-500 text-teal-500 font-semibold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer active:translate-y-5"
-                >Learn More</a
+                id="learn"
+                class="nter bg-transparent hover:bg-indigo-500 text-indigo-500 font-semibold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer active:translate-y-5"
+                >Enhance</a
               >
             </div>
           </div>
@@ -71,8 +71,8 @@
             data-aos="fade-left"
           >
             <div class="md:pr-12">
-              <small class="text-orange-500">About my work</small>
-              <h3 class="text-4xl uppercase font-bold">Full Stack</h3>
+              <small class="lato text-orange-500">About my work</small>
+              <h3 class="nter text-4xl uppercase font-bold">Full Stack</h3>
             
               <ul class="list-none mt-6">
                 <li class="py-2">
@@ -84,7 +84,7 @@
                       ></span>
                     </div>
                     <div>
-                      <h4 class="text-xl">
+                      <h4 class="lato text-xl">
                       From custom tailored designs to full production deployment
                       </h4>
                     </div>
@@ -99,7 +99,7 @@
                       ></span>
                     </div>
                     <div>
-                      <h4 class="text-xl">
+                      <h4 class="lato text-xl">
                         Vue/Vite applications and web sites that run extremely fast
                       </h4>
                     </div>
@@ -114,7 +114,7 @@
                       ></span>
                     </div>
                     <div>
-                      <h4 class="text-xl">Systems integrations including Crestron, Qsys, Dante, Control4, BrightSign</h4>
+                      <h4 class="lato text-xl">Systems integrations including Crestron, Qsys, Dante, Control4, BrightSign</h4>
                     </div>
                   </div>
                 </li>
@@ -130,8 +130,8 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold uppercase">Demo Projects</h2>
-            <p class="text-lg leading-relaxed m-4">
+            <h2 class="nter text-4xl font-semibold uppercase">Demo Projects</h2>
+            <p class="text-lg leading-relaxed m-4 lato">
              Some test projects to give some examples and ideas for customers
             </p>
           </div>
@@ -223,7 +223,7 @@
       <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
         <div class="flex flex-wrap text-center justify-center">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold text-white uppercase">
+            <h2 class="nter text-4xl font-semibold text-white uppercase">
               Contact Us
             </h2>
             <p class="text-lg leading-relaxed mt-4 mb-4">
@@ -243,9 +243,9 @@
               class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
               data-aos="fade-up-right"
             >
-              <div class="flex-auto p-5 lg:p-10 bg-teal-500 text-white">
-                <h4 class="text-2xl font-semibold">Want to work with us?</h4>
-                <p class="leading-relaxed mt-1 mb-4">
+              <div class="flex-auto p-5 lg:p-10 bg-indigo-500 text-white">
+                <h4 class="lato text-2xl font-semibold">Want to work with us?</h4>
+                <p class="lato leading-relaxed mt-1 mb-4">
                   Complete this form and we will get back to you in 24 hours.
                 </p>
                 <form  name="contact"
@@ -293,7 +293,8 @@
                 </div>
                 <div class="text-center mt-6">
                   <button
-                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    id="learn"
+                    class="bg-transparent hover:bg-indigo-700 text-white font-semibold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer active:translate-y-5"
                     type="submit"
                     style="transition: all 0.15s ease 0s"
                   >
@@ -337,5 +338,14 @@ export default {
   }
 }</script>
 
-<style>
+<style scoped>
+#learn:hover {
+ transition: all .5s ease-in-out;
+ transform: translateY(-5px);  
+}
+#learn:active {
+transition: all .1s ease-in-out;
+ transform: translateY(5px); 
+ opacity: 0.5;
+}
 </style>
