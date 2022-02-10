@@ -61,7 +61,4 @@ export default {};
 </script>
 
 <style>
-.nter {
-  font-family: alien2;
-}
 </style>

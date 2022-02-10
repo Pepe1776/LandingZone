@@ -19,26 +19,5 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: "alien";
-  src: url("../src/assets/Alien\ Moon\ Italic.ttf");
-}
-@font-face {
-  font-family: "alien2";
-  src: url("../src/assets/Alien\ Moon.ttf");
-}
-@font-face {
-  font-family: "super";
-  src: url("../src/assets/SupermercadoOne-Regular.ttf");
-}
-@font-face {
-  font-family: "lato";
-  src: url("../src/assets/Lato-Regular.ttf");
-}
-h1 {
-font-family: alien;
-}
-.lato {
-font-family: lato;
-}
+
 </style>
